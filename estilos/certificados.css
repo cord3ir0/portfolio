@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900; 1.100.900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   
+    box-sizing: border-box;
+    background-color:black;
+    color: white;
+ }
+ .by{
+    color: #000000;
+    background-color:#22D4FD;
+    padding: 10px;
+    text-align: center;
+    font-family:"Montserrat", sans-serif  ;
+    font-size: 1.1rem;
+}
+ .topo{
+    background-color: #272727;
+   
+
+
+}
+.topo_menu{
+    padding:0 0 0 10%;
+    display: flex;
+    gap:100px;
+
+}
+
+
+.link__menu{
+    font-family:"Montserrat", sans-serif ;
+    font-weight: 600;
+    font-size: 24px;
+    color:#22d4fd;
+    text-decoration: none;
+    
+}
+.link__menu:hover{
+    color:white
+}
+
+.imgens{
+
+ display: flex;
+ flex-direction: column;
+ padding: 100px;
+ gap: 50px;
+}
